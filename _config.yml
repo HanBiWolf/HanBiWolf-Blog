@@ -133,4 +133,6 @@ search:
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  - type: git
+    repo: git@github.com:HanBiWolf/HanBiWolf-Blog.git
+    branch: website
