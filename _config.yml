@@ -124,9 +124,11 @@ feed:
     - rss2.xml
 
 search:
-  path: search.xml
+  path: search.json
   field: post
   content: true
+  format: striptags
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
