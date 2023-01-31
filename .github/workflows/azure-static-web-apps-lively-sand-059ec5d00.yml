@@ -15,11 +15,44 @@ jobs:
     runs-on: ubuntu-latest
     name: Build and Deploy Job
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout Sources
+        uses: actions/checkout@v2
         with:
           submodules: true
-      - name: Build And Deploy
-        id: builddeploy
+
+      - name: Compress Images
+        uses: calibreapp/image-actions@main
+        with:
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          compressOnly: true
+          jpegQuality: '80'
+          jpegProgressive: false
+          pngQuality: '80'
+          webpQuality: '80'
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Setup Hexo
+        run: |
+          npm install hexo-cli -g
+
+      - name: Install Dependence
+        run: |
+          npm install
+
+      - name: Clean Public Directory
+        run: |
+          hexo clean
+
+      - name: Generate Public Directory
+        run: |
+          hexo g
+
+      - name: Deploy to Azure Static Web App
+        id: deploy
         uses: Azure/static-web-apps-deploy@v1
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_LIVELY_SAND_059EC5D00 }}
