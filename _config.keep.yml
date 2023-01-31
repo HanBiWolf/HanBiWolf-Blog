@@ -142,21 +142,21 @@ post:
     auto: true    # Option values: true | false
 
     # Label array item can be fill one or more
-    custom_label_list: ["Trainee", "Engineer", "Architect"]
+    custom_label_list: ["大憨憨"]
 
   # Post word count
   # Dependencies: hexo-wordcount (`npm install hexo-wordcount`)
   # See: https://github.com/willin/hexo-wordcount
   word_count:
-    enable: false       # Option values: true | false
-    wordcount: false    # Word count, one article. Option values: true | false
-    min2read: false     # Time to read, one article. Option values: true | false
+    enable: true      # Option values: true | false
+    wordcount: true    # Word count, one article. Option values: true | false
+    min2read: true     # Time to read, one article. Option values: true | false
 
   # Image align position in the post
   img_align: left  # Option values: left | center
 
   # Post copyright info
-  copyright_info: false  # Option values: true | false
+  copyright_info: true  # Option values: true | false
 
 # ---------------------------------------------------------------------------------------
 # Code block
