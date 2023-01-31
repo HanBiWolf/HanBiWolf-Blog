@@ -174,7 +174,7 @@ code_block:
 # Docs: https://keep-docs.xpoet.cn/tutorial/configuration-guide/toc.html
 # ---------------------------------------------------------------------------------------
 toc:
-  enable: false      # Option values: true | false
+  enable: true      # Option values: true | false
 
   # Automatically add list number to toc
   number: false      # Option values: true | false
@@ -183,7 +183,7 @@ toc:
   expand_all: false  # Option values: true | false
 
   # If true, open TOC every time when you enter the article page
-  init_open: false   # Option values: true | false
+  init_open: true   # Option values: true | false
 
 # ---------------------------------------------------------------------------------------
 # Website count
