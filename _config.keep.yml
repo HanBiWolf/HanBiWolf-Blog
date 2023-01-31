@@ -99,20 +99,20 @@ menu:
 # Docs: https://keep-docs.xpoet.cn/tutorial/configuration-guide/social_contact.html
 # ---------------------------------------------------------------------------------------
 social_contact:
-  enable: false      # Option values: true | false
+  enable: true      # Option values: true | false
   links:
     # Fill in your social platform links here, e.g. [ github: https://github.com/XPoet ]
     # If you want to click open the picture, you need to add a prefix "img |",
     # at the same time change your link to the image link.
     # e.g. [ weixin: img | https://x.com/images/wechat.png ] or [ weixin: img | ./images/wechat.png ]
-    github:          # GitHub
+    github: https://github.com/HanBiWolf          # GitHub
     weixin:          # WeChat
     qq:              # QQ
     weibo:           # WeiBo
     zhihu:           # ZhiHu
-    twitter:         # Twitter
+    twitter: https://twitter.com/HanBiWolf         # Twitter
     facebook:        # Facebook
-    email:           # Email
+    email: mailto:hanbiwolf@outlook.com          # Email
 
 # ---------------------------------------------------------------------------------------
 # Home page article block display settings
