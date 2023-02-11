@@ -1,7 +1,6 @@
 ---
-title: about
+title: 关于
 date: 2022-10-04 10:01:38
-layout: about
 comment: true
 ---
 # 如何称呼
