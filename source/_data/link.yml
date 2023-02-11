@@ -1,0 +1,15 @@
+- class_name: 下一站
+  class_desc: 前面的路还远着呢,去看看罢
+  link_list:
+    - name: 开往
+      link: https://travellings.cn/go.html
+      avatar: https://www.travellings.cn/assets/travelling-dark.png
+      descr: 开往,下一站.
+
+- class_name: 友链接
+  class_desc: 看看朋友们吧
+  link_list:
+    - name: Tuanowo & SmallDream
+      link: https://www.tuanowo.top/
+      avatar: #
+      descr: 团和小梦的网站owo
