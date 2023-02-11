@@ -200,8 +200,8 @@ post_copyright:
   enable: true
   decode: false
   author_href:
-  license: CC BY-NC-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
 
 # Sponsor/reward
 reward:
@@ -240,12 +240,12 @@ post_pagination: 1
 
 # Displays outdated notice for a post (文章過期提醒)
 noticeOutdate:
-  enable: false
+  enable: true
   style: flat # style: simple/flat
-  limit_day: 500 # When will it be shown
+  limit_day: 90 # When will it be shown
   position: top # position: top/bottom
-  message_prev: It has been
-  message_next: days since the last update, the content of the article may be outdated.
+  message_prev: 这篇文章距离上次更新已经有
+  message_next: 天了,文章内容可能已经过期,请自行鉴别.
 
 # Share System (分享功能)
 # --------------------------------------
@@ -254,7 +254,7 @@ noticeOutdate:
 # https://www.addthis.com/
 addThis:
   enable: false
-  pubid:
+  pubid: #
 
 # Share.js
 # https://github.com/overtrue/share.js
