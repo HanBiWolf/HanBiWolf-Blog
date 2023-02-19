@@ -354,7 +354,7 @@ facebook_comments:
 twikoo:
   envId: https://twikoo.hanbiwolf.cc
   region:
-  visitor: false
+  visitor: true
   option:
 
 # Giscus
