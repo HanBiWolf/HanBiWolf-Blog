@@ -10,6 +10,7 @@ menu:
     菜单: /categories/ || fas fa-folder-open
   #  Music: /music/ || fas fa-music
   #  Movie: /movies/ || fas fa-video
+  留言: /board/ || fa-solid fa-clipboard-list-check
   友链: /links/ || fas fa-link
   关于: /about/ || fas fa-heart
 
