@@ -882,7 +882,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    # - <link rel="stylesheet" href="/xxx.css">
+    - <script async defer data-website-id="f5f87518-550f-49ac-bb40-c9637b8a1fe5" src="https://umami.hanbiwolf.cc/umami.js"></script>
   bottom:
     # - <script src="xxxx"></script>
 
