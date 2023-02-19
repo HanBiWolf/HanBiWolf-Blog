@@ -352,7 +352,7 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: https://twikoo.hanbiwolf.cc
+  envId: https://twikoo-vercel-deploy.vercel.app/
   region:
   visitor: true
   option:
