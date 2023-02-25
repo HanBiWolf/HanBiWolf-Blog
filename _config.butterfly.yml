@@ -882,6 +882,7 @@ css_prefix: true
 inject:
   head:
     - <script async defer data-website-id="f5f87518-550f-49ac-bb40-c9637b8a1fe5" src="https://umami.hanbiwolf.cc/umami.js"></script>
+    - <script src="https://cdn.websitepolicies.io/lib/cookieconsent/cookieconsent.min.js" defer></script><script>window.addEventListener("load",function(){window.wpcc.init({"colors":{"popup":{"background":"#606060","text":"#ffffff","border":"#f9f9f9"},"button":{"background":"#f9f9f9","text":"#000000"}},"border":"thin","corners":"small","content":{"href":"https://www.hanbiwolf.cc/policy","message":"在您使用网站前,请阅读此页面以了解网站的使用条款\n(包含Cookies使用,信息收集,版权和免责信息)\n","link":"使用说明","button":"接受!"}})});</script>
   bottom:
     # - <script src="xxxx"></script>
 
